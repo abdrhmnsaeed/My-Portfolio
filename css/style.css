@@ -127,3 +127,13 @@ a.active{
     }
   }
 
+  @media only screen and (max-width: 414px) {
+    .navbar{
+        display: none;
+    }
+
+    .firstDIV{
+        justify-content: flex-start;
+    }
+  }
+
